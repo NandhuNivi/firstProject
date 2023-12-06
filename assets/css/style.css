@@ -1,0 +1,119 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+h1 {
+    text-align: center;
+    font-weight: 100px;
+    text-shadow: 2px 2px 5px red;
+    display: inline;
+    
+}
+#logo-div {
+    width: 100%;
+    min-height: 50px;
+    background-color: blue;
+    padding-left: 2%;
+    line-height: 50px;
+    margin-bottom: 16px;
+}
+
+#nav-div {
+
+    width: 100%;
+     min-height: 50px; 
+    background-color: yellow;
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 0px;
+}
+
+#about-div {
+
+    width: 100%;
+    min-height: 100px;
+    background-color: lightgreen;
+    text-align: center;
+    line-height: 100px;
+    margin-bottom: 10px;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#main-div {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#sidebar-div {
+    width: 24%;
+    min-height: 412px;
+    background-color: skyblue;
+    float: left;
+    text-align: center;
+    line-height: 400px;
+}
+
+#bodyarea-div {
+    /* margin-top: 20px; */
+    width: 76%;
+    min-height: 100px;
+    background-color: violet;
+    float: right;
+    text-align: center;
+    /* margin-left:5px; */
+   
+}
+
+#footer-div {
+    width: 100%;
+    min-height: 10px;
+    background-color: orange;
+    text-align: center;
+    line-height: 76px;
+    padding-left:10px;
+    
+    
+}
+
+#wrapper-div {
+    width: 100%;
+    background-color: black;
+    margin: auto;
+    
+}
+
+div.box{
+    margin: 10px;
+    border: 1px solid black;
+    float: left;
+    width: 230px;
+    /* margin-bottom: 10px; */
+   border-style: solid;
+    border-color:black;
+    border-width: 2px;
+    
+   }
+   video {
+    
+    width:227px;
+    
+  }
+  
+  p.double 
+  {
+    border-style: double;
+    background-color:aquamarine;
+    color:black;
+    
+}
+  div.box:hover {
+    border: 1px groove violet;
+    color:blue;
+  }
